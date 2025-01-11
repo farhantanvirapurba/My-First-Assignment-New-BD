@@ -149,3 +149,13 @@ blockquote{
     border: 1px solid #ccc;
     border-radius: 3px;
   }
+  /* Footer Style */
+  .footer-content p{
+    padding: 2px;
+    justify-content: space-betwee;
+  }
+  .social-media{
+    text-align: center;
+    padding: 2px;
+    white-space: 1px;
+  }
