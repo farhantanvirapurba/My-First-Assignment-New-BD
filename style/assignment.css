@@ -21,9 +21,12 @@
 }
 /* Pillar Style */
 .Pillars{
-    padding: 2px 0;
+    padding: 15px;
     background-color: white;
     text-align: center;
+    border: 1px solid white;
+    border-radius: 5px;
+
 }
 .pillars-container{
     display: flex;
@@ -75,8 +78,7 @@ justify-content: space-between;
     border-radius: 10px;
    padding: auto;
    text-align: center;
-   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-flex: 1 1 300px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 max-width: 350px;
 border: 2px solid#81B4FC;
 transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -84,12 +86,15 @@ justify-content: space-between;
 text-align: center;
 }
 .learn-more-btn{
+    display: block;
     background-color: #5490F5;
     color: #f0f0f0;
-    border: none;
+    border: none; 
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
+    margin: 10px auto;
+    width: fit-content;
 }
 /*Quote Section */
 .quote-container{
@@ -121,6 +126,7 @@ blockquote{
   
   #your-opinion h2 {
     margin-bottom: 15px;
+    text-align: left;
   }
   
   .opinion-table {
